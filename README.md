@@ -207,7 +207,7 @@ Q. Turn **easyPlaceToggle: OFF** (`KP_8`) and **togglePlacementRestriction: OFF*
 
 Q. I keep getting a _Action prevented by Placement Restriction Mode_ message!
 A. To turn placement restriction mode off:
-   * `m for Litematica Menu
+   * `m` for Litematica Menu
    * `Schematic Placements`
    * `Configure`
    * `Placement:`, and turn this `OFF`
