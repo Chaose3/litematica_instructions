@@ -168,7 +168,7 @@ To goto a a folder direclty in your OS:
 
 # FAQ
 
-Q. Verify missing blocks?
+Q. **Verify missing blocks?**
 
 To get a summary of missing/wrong blocks:
 
@@ -193,26 +193,34 @@ To see a detailed block-by-block missing/wrong blocks:
    * schematicOverlayColorWrongState #4CFF9010
 9. When done repeat stepas 1-4 and then press `[Reset data]`
 
-Q. See the Manifest before you build?
+Q. **See the Manifest before you build?**
 
 1. Load Schematics
 2. Click on the schematic
 3. Material List
 
-Q. Help, I can't place any blocks inside my placement/loaded schematic!
+Q. Help, **I can't place any blocks inside my placement/loaded schematic!**
+
 A. Press `KP_8` (easyPlaceToggle)
 
-Q. I can't place any blocks outside my placement!
-Q. Turn **easyPlaceToggle: OFF** (`KP_8`) and **togglePlacementRestriction: OFF**  (`KP_5`) 
+Q. **I can't place any blocks outside my placement!**
 
-Q. I keep getting a _Action prevented by Placement Restriction Mode_ message!
+A. Turn off:
+
+ * **easyPlaceToggle: OFF** (`KP_8`) and
+ * **togglePlacementRestriction: OFF** (`KP_5`)
+
+Q. **I keep getting a _Action prevented by Placement Restriction Mode_ message!**
+
 A. To turn placement restriction mode off:
    * `m` for Litematica Menu
    * `Schematic Placements`
    * `Configure`
    * `Placement:`, and turn this `OFF`
 
-Q. I keep getting an _Action prevented by Placement Restriction Mode_
+Q. The above didn't help. **I keep getting an _Action prevented by Placement Restriction Mode_**
+
 A. You are trying to place a block that isn't in the schematic blueprint.
+
 You need to `Left-Click` to break the existingg block, then `Right-Click` to place the planned schematic block.
 Alternatively you can Unload the Placement.
