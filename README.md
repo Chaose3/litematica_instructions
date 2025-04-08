@@ -114,10 +114,9 @@ To goto a a folder direclty in your OS:
 * On Windows press `Windows+E` to bring up Explorer, and then `Ctrl-L`
 * On macOs press: `Command-shift-G`
 
+# Place Schematic
 
-=== Replicating your creation ===
-
-6. Load the Schematic as a Placement
+7. Load the Schematic as a Placement
   * `m` to bring up Litematica menu
   * `Load Schematics`
   * `[x] Create a placement`
@@ -126,7 +125,7 @@ To goto a a folder direclty in your OS:
   * `Load Schematic`
   * You will see a dialog box if was loaded correctly
 
-7. Troubleshooting Placement not displaying correctly
+8. Troubleshooting Placement not displaying correctly
 
   * If you only see a bounding box, make sure Layer Mode is All
     * Hold down `m` and press `Pageup` until you see `Layer Mode: All`
@@ -135,7 +134,7 @@ To goto a a folder direclty in your OS:
   * To switch between translucent blue boxes and textured boxes
     * Press `Numeric Keypad 1` to toggle Schematic Block Rendering
 
-8. Move and Rotate the Placement
+9. Move and Rotate the Placement
   * **NOTE** `Ctrl`-`MouseWheel` to be in `Mode [2/9]: Schematic Placement`
   * Hold down `ALT` and use the scroll wheel to move the placement along the direction you are looking.
   * i.e. To move the placement down, look down, hold `ALT` and scroll the mouse wheel up.
@@ -145,11 +144,31 @@ To goto a a folder direclty in your OS:
   * If `Alt+MouseWheel` changes the dimesions you are in the wrong mode.
     You need to be in `Mode [2/9]: Schematic Placement`
 
-9. Move a Placement Fast
+10. Move a Placement Fast
   * Press the `KP -` key to bring up the placement GUI.
   * Set the new origin
 
-# === Verify missing blocks
+# Build or Print Schematic
+
+## Printer Mode - Block by Block
+
+11. With the placement aligned, use `Ctrl-MouseWheel` and switch to mode `[3/9]: Fill`
+12. Make sure `easyPlaceMod` and `easyPlaceHoldEnabled` are on.
+   To turn this on press `m` to bring up Litematica menu, `Configuration menu` > `Generic`
+13. Switch OFF of the _Stick_ block.
+14. Destroy blocks (left-click) and Place blocks (right-click)
+
+## Printer Mode - Entire Structure
+
+**NOTE:** On many servers this will PROBABLY NOT BE ALLOWED. Always check the server rules!
+
+15. Change mode to _Paste Schematic in world_ via `Ctrl`-`MouseWheel` until you see `Mode [5/9]: Paste Schematic in world`
+16. Press `Ctrl`-`m` to cycle to **Replace blocks: all** (Alternatively, you can try **non-air**)
+17. To paste the ENTIRE structure you need to use the `ExecuteOperation` key  (Custom hotkey `KP_9`.)  **Note:** There is NO default key, you need to set one.
+
+# FAQ
+
+Q. Verify missing blocks?
 
 To get a summary of missing/wrong blocks:
 
@@ -174,30 +193,11 @@ To see a detailed block-by-block missing/wrong blocks:
    * schematicOverlayColorWrongState #4CFF9010
 9. When done repeat stepas 1-4 and then press `[Reset data]`
 
-# To see the Manifest Before you Build
+Q. See the Manifest before you build?
 
 1. Load Schematics
 2. Click on the schematic
 3. Material List
-
-# Printer Mode - Block by Block
-
-1. With the placement aligned, use `Ctrl-MouseWheel` and switch to mode [3/9]: Fill mode
-2. Make sure `easyPlaceMod` and `easyPlaceHoldEnabled`
-   To turn this on press `m` to bring up Litematica menu, `Configuration menu` > `Generic`
-
-
-# Printer Mode - Entire Structure
-
-1. To paste the ENTIRE structure you need to use the `ExecuteOperation`
-   ExecuteOperation: default is none  
-   Change to `KP_9` 
-2. Press `Ctrl`-`m` to cycle to **Replace blocks: all**
-3. Change mode to _Paste Schematic in world`
-   via `Ctrl`-`MouseWheel` or until you see `[Tool Mode: Paste Schematic in world]`
-
-
-# FAQ
 
 Q. Help, I can't place any blocks inside my placement/loaded schematic!
 A. Press `KP_8` (easyPlaceToggle)
