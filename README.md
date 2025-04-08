@@ -42,7 +42,7 @@ by Michaelangel007
 
 1. Build your creation in Survival or Creative.
 
-2. Make sure you have a `Stick` in your inventory hotbar and selected
+2. Make sure you have a `Stick` (yes, a wooden stick) in your inventory hotbar and selected.
 
 3. Create new bounding box area
   * `m` to bring up Litematica menu
@@ -75,7 +75,7 @@ Don't worry if the corners / origin aren't exact. You can fine-tune the corners/
 
 Legend:
 
-```
+
   | Click | Axis | Direction |
   |:------|:----:|:----------|
   | Left  |  +X  | East      |
@@ -84,7 +84,7 @@ Legend:
   | Right |  -Y  | Lower     |
   | Left  |  +Z  | South     |
   | Right |  -Z  | North     |
-```
+
 
 * TIP: use `/gamemode spectator` and `/gamemode creative` to inspect the corners / origin.
 * TIP: Press `DELETE` to toggle rendering of the area selection.
